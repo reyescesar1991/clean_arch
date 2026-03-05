@@ -1,8 +1,8 @@
 import 'package:app_clean_arch/core/error/exceptions.dart';
 import 'package:app_clean_arch/core/error/failuires.dart';
-import 'package:app_clean_arch/feature/data/datasources/auth_remote_data_source.dart';
+import 'package:app_clean_arch/feature/auth/data/datasources/auth_remote_data_source.dart';
 import 'package:app_clean_arch/core/common/entities/user.dart';
-import 'package:app_clean_arch/feature/domain/repository/auth_repository.dart';
+import 'package:app_clean_arch/feature/auth/domain/repository/auth_repository.dart';
 import 'package:fpdart/src/either.dart';
 import 'package:supabase_flutter/supabase_flutter.dart' as sb;
 

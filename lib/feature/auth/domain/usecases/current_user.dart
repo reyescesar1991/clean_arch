@@ -1,7 +1,7 @@
 import 'package:app_clean_arch/core/error/failuires.dart';
 import 'package:app_clean_arch/core/usecase/usecase.dart';
 import 'package:app_clean_arch/core/common/entities/user.dart';
-import 'package:app_clean_arch/feature/domain/repository/auth_repository.dart';
+import 'package:app_clean_arch/feature/auth/domain/repository/auth_repository.dart';
 import 'package:fpdart/fpdart.dart';
 
 class CurrentUser implements UserCase<User, NoParams> {

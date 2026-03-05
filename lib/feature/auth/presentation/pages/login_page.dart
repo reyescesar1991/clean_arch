@@ -1,10 +1,10 @@
 import 'package:app_clean_arch/core/common/widgets/loader.dart';
 import 'package:app_clean_arch/core/theme/app_pallete.dart';
 import 'package:app_clean_arch/core/utils/show_snackbar.dart';
-import 'package:app_clean_arch/feature/presentation/bloc/auth_bloc.dart';
-import 'package:app_clean_arch/feature/presentation/pages/signup_page.dart';
-import 'package:app_clean_arch/feature/presentation/widgets/auth_field.dart';
-import 'package:app_clean_arch/feature/presentation/widgets/auth_gradient_button.dart';
+import 'package:app_clean_arch/feature/auth/presentation/bloc/auth_bloc.dart';
+import 'package:app_clean_arch/feature/auth/presentation/pages/signup_page.dart';
+import 'package:app_clean_arch/feature/auth/presentation/widgets/auth_field.dart';
+import 'package:app_clean_arch/feature/auth/presentation/widgets/auth_gradient_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
