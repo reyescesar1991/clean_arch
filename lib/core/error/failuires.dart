@@ -1,5 +1,5 @@
-class Failuires {
+class Failure {
   final String message;
 
-  Failuires(this.message);
+  Failure(this.message);
 }
