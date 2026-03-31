@@ -14,6 +14,9 @@ class UserLogin implements UserCase<User, UserLoginParams> {
     if (params.email.isEmpty) {
       return Left(Failure('El email no puede estar vacío'));
     }
+    if (params.password.isEmpty) {
+      return Left(Failure('El password no puede estar vacío'));
+    }
     return await _authRepository.loginWithEmailPassword(
       email: params.email,
       password: params.password,
