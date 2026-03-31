@@ -11,6 +11,9 @@ class UserLogin implements UserCase<User, UserLoginParams> {
 
   @override
   Future<Either<Failure, User>> call(UserLoginParams params) async {
+    if (params.email.isEmpty) {
+      return Left(Failure('El email no puede estar vacío'));
+    }
     return await _authRepository.loginWithEmailPassword(
       email: params.email,
       password: params.password,
